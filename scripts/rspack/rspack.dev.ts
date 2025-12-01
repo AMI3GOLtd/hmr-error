@@ -16,7 +16,6 @@ module.exports = merge(commonConfig, {
         port: port,
         open: true,
         hot: false,
-        liveReload: false,
         headers: {
             'Access-Control-Allow-Origin': '*',
         },
