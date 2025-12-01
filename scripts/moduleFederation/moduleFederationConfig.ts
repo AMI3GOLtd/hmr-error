@@ -19,18 +19,6 @@ export const mfConfig = {
         'react-router-dom': {
             singleton: true,
             requiredVersion: deps['react-router-dom'],
-        },
-        '@emotion/react': {
-            singleton: true,
-            requiredVersion: '*',
-        },
-        '@emotion/styled': {
-            singleton: true,
-            requiredVersion: '*',
-        },
-        '@mui/material': {
-            singleton: true,
-            requiredVersion: '*',
-        },
+        }
     },
 };
